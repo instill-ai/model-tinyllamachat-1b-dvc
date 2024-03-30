@@ -23,6 +23,7 @@ class TinyLlama:
             model="TinyLlama/TinyLlama-1.1B-Chat-v1.0",
             torch_dtype=torch.float16,
             device_map="cuda",
+            token=ACCESS_TOKEN
         )
 
     def ModelMetadata(self, req):
