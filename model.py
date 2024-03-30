@@ -16,7 +16,7 @@ from instill.helpers import (
 @instill_deployment
 class TinyLlama:
     def __init__(self):
-        ACCESS_TOKEN = "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"
+        ACCESS_TOKEN = "..."
 
         self.pipeline = pipeline(
             "text-generation",
